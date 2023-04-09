@@ -1,0 +1,27 @@
+.searchbar {
+  margin-left: 1rem;
+}
+
+.searchbar-input__text {
+  width: 10rem;
+  height: 1.6rem;  
+  margin: 0 0 0 1rem;
+  border: none;
+  border-radius: 5% 0 0 5%;
+  color: var(--third-color);
+}
+
+.searchbar-input__submit {
+  width: 1.6rem;
+  height: 1.63rem;
+  margin: 0 1rem 0 0;
+  border: none;
+  border-radius: 0 5% 5% 0;
+}
+
+.searchbar-input__submit:hover {
+  width: 2rem;
+  height: 2.1rem;
+  border: 0.125rem solid var(--primary-color);
+  cursor: pointer;
+}

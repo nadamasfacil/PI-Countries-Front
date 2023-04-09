@@ -1,0 +1,66 @@
+.navbar {
+  width: auto;   
+  height: 15%;
+  background-color: var(--third-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+  gap: 3rem;
+}
+
+.navbar-h1 {
+  margin: 1rem 0;
+  padding-left: 4rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-shadow: 0.2rem 0.2rem #000;
+  letter-spacing: 10px;
+}
+
+.navbar__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  gap: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navbar-Link {
+  width: 7rem;
+  height: 1.6rem;
+  border-radius: 5%;
+  color: var(--button-color-choice-Link);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar-Link:hover {
+  background-color: var(--button-bkcolor-choice-Link-hover);
+  cursor: pointer;
+}
+
+.navbar-button {
+  width: 6rem;
+  height: 1.6rem;
+  margin-left: 2rem;
+  border: none;
+  border-radius: 5%;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--button-color-log);
+  background-color: var(--button-bkcolor-log);
+}
+
+.navbar-button:hover {
+  color: var(--button-color-log-hover);
+  background-color: var(--button-bkcolor-log-hover);
+  cursor: pointer;
+}

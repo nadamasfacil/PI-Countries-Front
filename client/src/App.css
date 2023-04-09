@@ -1,0 +1,20 @@
+:root {
+  --button-bkcolor-log: #ff0000;
+  --button-bkcolor-log-hover: #f0f8ff;
+  --button-color-log: #f0f8ff;
+  --button-color-log-hover: #ff0000;
+  --button-bkcolor-choice: #00ced1;
+  --button-bkcolor-choice-hover: #0f0b0b;
+  --button-color-choice: #0f0b0b;
+  --button-color-choice-hover: #00ced1;
+  --button-color-choice-Link: #f0f8ff;
+  --button-bkcolor-choice-Link-hover: #00ced1;
+  --primary-color: #4ff9ff;
+  --second-color: #f0f8ff;
+  --third-color: #000051;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}

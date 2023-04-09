@@ -1,0 +1,68 @@
+.landing {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, var(--third-color), var(--second-color), var(--primary-color));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-section__login {
+  width: 100%;
+  height: 17%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.landing-h1 {
+  margin: 0.75rem 0 1.25rem 0;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-shadow: 0.2rem 0.2rem #000;
+  letter-spacing: 10px;
+}
+
+.landing-button__login {
+  width: 6rem;
+  height: 1.6rem;
+  border: none;
+  border-radius: 5%;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--button-color-log);
+  background-color: var(--button-bkcolor-log);
+}
+
+.landing-button__login:hover {
+  border: 0.125rem solid var(--button-color-log-hover);
+  color: var(--button-color-log-hover);
+  background-color: var(--button-bkcolor-log-hover);
+  cursor: pointer;
+}
+
+.landing-section__map {
+  width: 70%;
+  height: 73%;
+  border: 0.25rem solid var(--third-color);
+  background: linear-gradient(315deg, var(--third-color), var(--second-color), var(--primary-color));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-img__map {
+  width: 90%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-img__map img {
+  width: 80%;
+  height: 100%;
+}

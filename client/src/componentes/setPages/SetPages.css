@@ -1,0 +1,39 @@
+.pages {
+  width: 80%;
+  margin: auto;
+}
+
+.pages-ul {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.pages-li {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.pages-ul__number {
+  width: 25px;
+  height: 25px;
+  color: var(--button-color-choice);
+  background-color: var(--button-bkcolor-choice);
+  text-align: center;
+}
+
+
+.pages-ul__number:hover {
+  color: var(--button-color-choice-hover);
+  background-color: var(--button-bkcolor-choice-hover);
+  cursor: pointer;
+  box-shadow: 0.5rem 0.5rem 1rem var(--third-color);
+}
+
+.pages-ul__active {
+  color: var(--button-color-choice-hover);
+  background-color: var(--button-bkcolor-choice-hover);
+}

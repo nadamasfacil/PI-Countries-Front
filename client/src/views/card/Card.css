@@ -1,0 +1,56 @@
+.card {
+  width: 22%;
+  height: 30%;
+  margin: 0.5rem;
+  position: relative;
+  border: 0.375rem solid var(--third-color);
+  background-color: var(--third-color);
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.card img {
+  width: 95%;
+}
+
+.card__description {
+  width: 100%;
+  margin: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.card__description h3 {
+  padding: 0 0.25rem 0 0.125rem;
+  font-size: 0.95rem;
+  color: var(--primary-color);
+}
+
+.card__description h4 {
+  padding-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--second-color);
+  align-items: flex-start;
+}
+
+.card-Link {
+  width: 3rem;
+  position: absolute;
+  bottom: 0.125rem;
+  right: 0.125rem;
+  border-radius: 10%;
+  background-color: var(--button-bkcolor-choice);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--button-color-choice);
+  text-decoration: none;
+}
+
+.card-Link:hover {
+  color: var(--button-color-choice-hover);
+  background-color: var(--button-bkcolor-choice-hover);
+  cursor: pointer;
+}
