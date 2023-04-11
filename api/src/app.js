@@ -10,8 +10,10 @@ const server = express();
 
 server.name = 'API';
 
+// body-parser permite convertir datos a JSON del body de la request
 server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 server.use(bodyParser.json({ limit: '50mb' }));
+// analiza las cookies que vienen en la cabecera del request
 server.use(cookieParser());
 server.use(morgan('dev'));   // consologuea mensajes de actvidades
 server.use((req, res, next) => {

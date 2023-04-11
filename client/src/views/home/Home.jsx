@@ -106,6 +106,7 @@ const Home = ({ searchBarChange, formFlagChange, detailsFlag, detailsFlagChange 
     setCountryActivity('All');
     setCountryOrgan('Selected');
     setCountryOrder('Selected');
+    setPageView(1);
     detailsFlagChange({
       flag: false,
       countryContinent: 'All',

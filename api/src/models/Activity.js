@@ -30,5 +30,5 @@ module.exports = (sequelize) => {
       type: DataTypes.ARRAY( DataTypes.STRING ),
       defaultValue: [],
     },
-  });
+  })
 };

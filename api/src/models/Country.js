@@ -35,9 +35,5 @@ module.exports = (sequelize) => {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    // activities: {
-    //   type: DataTypes.ARRAY( DataTypes.STRING ),
-    //   defaultValue: [],
-    // },
-  });
+  })
 };
