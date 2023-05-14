@@ -9,7 +9,8 @@ export const COUNTRIES_ORDER = 'COUNTRIES_ORDER';
 export const GET_ALLACTIVITIES = 'GET_ALLACTIVITIES';
 
 export const getAllCountries = async () => {
-  return await fetch('http://localhost:3001/countries')
+  // return await fetch('http://localhost:3001/countries')
+  return await fetch('http://pi-countries-back-production-5a32.up.railway.app/countries')
               .then(res => {
                 if (!res.ok) throw new Error('Countries not found');
                 return res.json()
@@ -24,7 +25,8 @@ export const getAllCountries = async () => {
 };
 
 export const getCountriesByName = async (name) => {
-  return await fetch('http://localhost:3001/countries?name=' + name)
+  // return await fetch('http://localhost:3001/countries?name=' + name)
+  return await fetch('http://pi-countries-back-production-5a32.up.railway.app/countries?name=' + name)
   .then(res => {
     if (!res.ok) throw new Error('Countries not found');
     return res.json()
@@ -43,7 +45,8 @@ export const getCountriesByName = async (name) => {
 };
 
 export const getCountriesById = async (id) => {
-  return await fetch('http://localhost:3001/countries/' + id)
+  // return await fetch('http://localhost:3001/countries/' + id)
+  return await fetch('http://pi-countries-back-production-5a32.up.railway.app/countries/' + id)
   .then(res => {
     if (!res.ok) throw new Error('Country not found');
     return res.json()
@@ -81,7 +84,8 @@ export const countriesOrder = (payload) => {
 };
 
 export const getAllActivities = async () => {
-  return await fetch('http://localhost:3001/activities')
+  // return await fetch('http://localhost:3001/activities')
+  return await fetch('http://pi-countries-back-production-5a32.up.railway.app/activities')
               .then(res => {
                 if (!res.ok) throw new Error('Activities not found');
                 return res.json()
@@ -97,7 +101,8 @@ export const getAllActivities = async () => {
 
 export const postActivity = async (activity) => {
   try {
-    const sendActivity = await axios.post('http://localhost:3001/activities', activity);
+    // const sendActivity = await axios.post('http://localhost:3001/activities', activity);
+    const sendActivity = await axios.post('http://pi-countries-back-production-5a32.up.railway.app/activities', activity);
     return sendActivity.data;
     
   } catch (error) {
